@@ -2,7 +2,7 @@ spring:
   application:
     name: WorkFlow
   datasource:
-    url: ${DB_URL}
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/workflow
     username: ${DB_USER}
     password: ${DB_PASS}
     driver-class-name: org.postgresql.Driver
