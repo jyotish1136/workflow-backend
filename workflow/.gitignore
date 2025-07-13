@@ -3,6 +3,8 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# Ignore environment-specific config
+application-dev.yml
 
 ### STS ###
 .apt_generated
