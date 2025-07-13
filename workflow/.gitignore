@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 # Ignore environment-specific config
 application-dev.yml
-.idea/
+
 ### STS ###
 .apt_generated
 .classpath
@@ -16,7 +16,7 @@ application-dev.yml
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+/.idea/
 *.iws
 *.iml
 *.ipr
