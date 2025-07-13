@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 # Ignore environment-specific config
 application-dev.yml
-.idea
+.idea/
 ### STS ###
 .apt_generated
 .classpath
